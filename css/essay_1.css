@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+.container .images {
+  display: flex;
+  width: 50%;
+}
+.container .images .photos {
+  width: 50%;
+}
+.container .images .photos .box {
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 30px 5px;
+  height: 500px;
+  opacity: 0;
+  transform: translateY(150px);
+}
+.container .images .photos .box.add-anim {
+  transform: translateY(0);
+  opacity: 1;
+  transition: opacity 1.5s ease-in, transform 1s ease-in;
+  transition-delay: 1s;
+}
+.container .images .photos .box.add-anim.anim-one {
+  transition-delay: 1s;
+}
+.container .images .photos .box.box-1 {
+  background-image: url(../images/1.jpg);
+}
+.container .images .photos .box.box-2 {
+  background-image: url(../images/2.jpg);
+}
+.container .images .photos .box.box-3 {
+  background-image: url(../images/3.jpg);
+}
+.container .images .photos .box.box-4 {
+  background-image: url(../images/4.jpg);
+}
+.container .images .photos .box.box-5 {
+  background-image: url(../images/5.jpg);
+}
+.container .images .photos .box.box-6 {
+  background-image: url(../images/6.jpg);
+}
+.container .images .photos .box.box-7 {
+  background-image: url(../images/7.jpg);
+}
+.container .images .photos .box.box-8 {
+  background-image: url(../images/8.jpg);
+}
+.container .images .photos .box.box-9 {
+  background-image: url(../images/9.jpg);
+}
+.container .images .photos .box.box-10 {
+  background-image: url(../images/8743392151_9f69a7e6e4.jpg);
+}
+.container .images .photos .box.box-11 {
+  background-image: url(../images/harshwords_430.jpg);
+}
+.container .images .photos .box.box-12 {
+  background-image: url(../images/sea_of_matrimony.jpg);
+}
+.container .images .photos .box.box-13 {
+  background-image: url(../images/Beatrice-Warde-3.jpg);
+}
+.container .images .photos .box.box-14 {
+  background-image: url(../images/ThomasMaitlandCleland--DellaRobbia-1902b.png);
+}
+.container .images .photos .box img {
+  width: 100%;
+}
+.container .essay {
+  width: 50%;
+  padding: 10px 20px 20px;
+}
+.container .essay h1 {
+  margin-top: 10px;
+  padding: 0px 5px;
+  font-family: "Dosis", sans-serif;
+}
+.container .essay p {
+  font-size: 18px;
+  padding: 0px 8px;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+}
+.next a {
+  text-decoration: none;
+  background-color: rgb(238, 236, 236);
+  color: #333;
+  padding: 15px 35px;
+  margin: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=essay_1.css.map */
