@@ -92,6 +92,14 @@
   margin-top: 10px;
   padding: 0px 5px;
   font-family: "Shrikhand", cursive;
+  line-height: 1.2;
+  text-align: center;
+}
+.container .essay h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Shrikhand", cursive;
+  margin-top: 10px;
 }
 .container .essay p {
   font-size: 18px;
